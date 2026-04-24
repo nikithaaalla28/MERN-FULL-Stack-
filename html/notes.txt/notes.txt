@@ -1,0 +1,325 @@
+Front end:
+-------------
+-> what sre all the user can seen on screeen is called as front end 
+-> to design front end we have different technologies like[html,css,js,angular js,react js....etc]
+
+Back end:
+-------------
+-> back end is the server side programming having API logics, database logics to monitor and manage the data that will comes from frontend (req & res)
+-> here also we have some technologies (programming language) like node js and  express js java, python, ruby, c, c++ 
+
+Database:
+-------------
+-> databse the place where we store the data.
+-> the store data has a conventional database and uses technologies like my SQL,SQL,Postgre SQL, mongoDB, Neo4j, cassandra, Hive, and Hbase, raike...etc
+
+Web applications:
+------------------
+ ->Any Applications that will be run in browsers is called as a Web Applications 
+
+Types of applications:
+-----------------------
+ 1.Static web applications:
+  ->any web application dosent have functionalities is called as a static web applications 
+  ->to build static applications we use HTML & CSS 
+ 2.Dynamic web applications:
+  ->any web applications having functionalites is called as dynamic web applications 
+  ->to build web applications we need to use HTML, CSS, JS 
+
+Web pages:
+---------------------
+->HTML document is called as a web pages 
+
+Website:
+-----------------
+->collection of html documents is called as a websites
+
+web server : 
+------------
+    ->Collection of websites is called as web server
+
+
+browser Working Principle: 
+---------------------------
+    ->
+
+
+HTML  : 
+-------
+    ->HTML are used to build structure of the web pages 
+    ->HTML Stands for "Hyper Text Markup Language "
+    ->HTML is introduced in the year 1991 by the developer "Tim berners lie" 
+    ->The current of version of HTML is HTML5 
+    ->This is the standard Markup language
+
+
+
+    before HTML they used XML(extendable markup language)
+
+     
+HTML boiler plate / HTML structure: 
+-----------------------------------
+
+
+
+HTML Tags: 
+----------
+    ->tags are the predefine words which inclosed with both opening and closing angular brackets 
+    ->Ex: <h1> ,<div>  , <head> ...etc
+
+    Types of tags : 
+    ---------------
+        1. paired tags 
+            ->any tags having both opening and closing tags is called as a paired tags 
+            Ex: <html> </html> , <head></head> ....ect 
+
+            i.  heading tags 
+                ->heading tags used to display headings in web page 
+                ->in html we have total 6 heading tags 
+                ->Ex:
+                            <h1>heading tag-1</h1>
+                            <h2>heading tag-2</h2>
+                            <h3>heading tag-3</h3>
+                            <h4>heading tag-4</h4>
+                            <h5>heading tag-5</h5>
+                            <h6>heading tag-6</h6>
+
+            ii. formatting tags 
+                ->formatting tags having there own CSS behaviors 
+
+                Ex: 
+                    1. <b> </b>                 ->font weight bold 
+                    2. <strong></strong>        ->font weight bold
+                    3. <i> </i>                 ->font style italic 
+                    4. <em> </em>               ->font style italic 
+                    5. <u> </u>                 ->font decoration underline 
+                    6. <mark></mark>            ->to highlight content 
+                    7. <sub> </sub>             ->subscript 
+                    8. <sup></sup>              ->superscript 
+                    9. <center></center>        ->to align content in center 
+                    10. <marquee></marquee>     ->to scroll the content 
+                    11. <strike></strike>       ->font decoration line-through 
+                    12. <pre> </pre> ..etc 
+                    
+
+
+            iii. other tags 
+                Ex: <div></div> , <p></p> , <span></span> , list tags , semantic tags , media tags , table tags , form tags ...etc 
+
+
+        2. unpaired tags / self closing : 
+        ->any tags having only opening tags is called as a unpaired tags 
+        Ex: 
+            <br>  , <input>, <hr> , <meta> , <col> ..etc 
+
+Attributes in HTML : 
+-----------------------
+    ->Attributes are used to give additional information to the HTML tags 
+    ->Attributes are always in opening tags 
+    ->most of the HTML Elements having Attributes 
+    ->Attributes are always key and value paired 
+
+    Ex:  <h1 algin="center">  HELLO    </h1>
+
+
+Elements in HTML: 
+-----------------
+    ->The opening tag , closing and content together is called as a Elements 
+    Ex: <p> This is paragraph </p>
+
+    types of Elements : 
+         1. inline level Elements 
+                ->the Elements which will consumes only content width is called as a Inline level Elements
+                Ex: All formatting tags , <span></span> ..etc 
+
+
+         2. block level Elements
+                ->the Elements which will consumes entire  width of the browser is called as a block level Elements
+                Ex: all heading tags , <div></div> , other tags ..etc 
+
+
+img tag : 
+--------
+    -><img> tag used to display images in web page 
+    ->img tag Attributes : 
+        1. src(source): 
+                ->src will accept image address as a value
+                1. absolute path (browser image address)
+                2. relative path (downloaded image address)
+
+
+        2. alt 
+        3. height 
+        4. width 
+        5. style 
+
+
+
+Marquee tag: 
+-------------
+    -><marquee></marquee> are used to scroll the content 
+    ->Marquee Attributes 
+        1. behavior : scroll (default value ), slide , alternate 
+        2. direction : left , right , up , down 
+        3. scrollamount 
+        4. loop
+        5. height 
+        6. width 
+        7. bgcolor  
+
+List in HTML : 
+---------------
+    ->List are used to display items/data in proper manner 
+Types : 
+ ----------
+1.Ordered list:
+-----------------
+ ->ordered list are used to display items in sequence way 
+ -><ol></ol> used to represent the ordered list 
+ -> <li></li>    ->it represent the list item 
+
+ ordered list attributes:
+ -------------------------
+ 1.Types :1, a, A, i, I,  
+ 2.Start
+ 3.Reverse
+
+2.Unordered list:
+ -------------------
+  -> unordered list is used to display the items with symbols.
+   SYMBOLS 
+    -> <ul></ul> used to represent the unordered
+    -> <li></li> used to represent the list
+
+ Unordered list Attributes:
+ ----------------------------
+  1.type:none, cycle, disc(default value), square
+
+3.description list/definition list
+  -> description list are used to describe(define) items
+   1.<dl></dl>  ->description list
+   2.<dt></dt>  ->description term 
+   3.<dd></dd>  ->description data
+
+4.Nested list:
+  -> a list having one or more another list is called as a nested list 
+
+Tables in HTML: 
+---------------
+    -> The collection of cell or rows and columns is called as a table 
+
+ tags in tables:
+ ---------------------
+  1.<table></table>           ->table tag   (formula for total same number of rows and coloums table>(tr>td*3)*3)
+  2.<tr></tr>                 ->table row
+  3.<th></th>                 ->table heading
+  4.<td></td>                 ->table data
+  5.<thead></thead>           ->table head 
+  6.<tbody></tbody>           ->table body 
+  7.<tfoot></tfoot>           ->table footer
+  8.<colgroup></colgroup>     ->coloum group
+  9.<col></col>               ->coloumn
+
+table Attributes
+---------------------------
+ 1.border
+ 2.cellspacing (controls the space between the cells)
+ 3.cellpadding (controls the spce within the cell,between the cell content and its border.)
+
+attributes in (td and th):
+------------------------
+ 1.align
+ 2.bgcolor
+ 3.rowspan  (it is used to merge the rows)
+ 4.colspan  (it is used to merge the coloum)
+
+Forms in html:
+-----------------
+ ->forms are used to collect the user information digitally.
+
+ form tags:
+  1.<form> </form>
+  2.<fieldset></fieldset>   (used to design border fieldset)
+  3.<legend></legend>       (used to label the form)
+  4.<input>                 (used to collect the input fron user)
+  5.<button></button>       (used to display buttons in forms)
+  6.<label></label>         (used to label input field)
+  7.<textarea></textarea>   (used to collect large data text and it is also called as flexible input box)
+  8.<select></select>       (used to group option  <option></option>)
+
+  form attributes:
+  -----------------
+   1.action 
+   2.method
+
+fieldset attributes:
+--------------------
+ 1.style
+ 2.id 
+ 3.class 
+
+legend attributes:
+------------------
+ 1.align 
+ 2.id 
+ 3.style
+ 4.class
+
+ label attributes:
+ -------------------
+
+ input attributes"
+ ----------------
+  1.type 
+  2.id
+  3.name 
+  4.place holder 
+  5.min 
+  6.max 
+  7.min
+
+media tags:
+------------
+    ->media tags are used to display audio video or to embed google, maps, youtube, videos, documents, webpages etc....
+media tags like
+  1.audio  
+   -> audio tag are yoused to display the audio in web pages
+     1.src(source)
+     2.controls
+     3.muted
+     4.loop
+     5.autoplay
+  2.video   
+   -> video tag are used to display the videos on the web pages
+   video tag attributes:
+   ---------------------
+    1.src
+    2.controls
+    3.loop
+    4.autoplay
+    5.muted
+    6.height
+    7.width
+  3.iframe:
+-><iframe></iframe>   used to displey the embed  google maps, youtube videos, documents, websites, web pages.....
+
+  iframe attributes:
+  --------------------
+   1.src
+   2.frameborder
+   3.height
+   4.width
+
+Anchor tag:
+----------------
+
+semantic tags:
+---------------
+ ->semantic tags are used to build a proper structure of the code/web page
+ ->using semantic tags we can increase SEO(search engine optimization) and also increase the code readability
+ ->semantic tags are developer freiendly
+ ->semantic tag like:
+ -------------------
+ -><header></header>
+ -><footer></footer>
+ ->

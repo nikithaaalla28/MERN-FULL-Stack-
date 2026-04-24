@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       <fieldset>
+       <style> 
+        label{
+           font-style:italic;
+           font-size:20px;
+           font-weight:bold;
+           margin-right:20px;
+           }
+        button{
+            
+        }
+       </style>
+        <h1 align="center"> JOB APPLICATION FORM </h1>
+        <label for="name">First Name:</label>
+        <input type="text" id="fname" maxlength="8" minlength="3"  placeholder="enter first name">
+<br> <br>
+<label for="lname"> lastname:</label>
+<input type="text" id="lname" placeholder="enter last name" required="lname"><br><br>
+<label for="age" >age</label>
+<input type="number" id="age"><br> <br>
+<label for="email">email:</label>
+<input type="text" id="email" placeholder="email id"><br> <br>
+<label for="ph number">ph number:</label>
+<input type="tel"  pattern="[6-9]{1}[0-9]{9}" id="ph number" required placeholder="+91"><br> <br>
+<label for="gender">gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br> <br>
+<label for="dob">date of birth:</label>
+<input type="date" id="dob"><br> <br>
+<label for="state" >state:</label>
+<select name="" id="state"> 
+    <option value="" >AP</option>
+    <option value="">TS</option>
+    <option value="">KA</option>
+    <option value="">TN</option>
+</select><br> <br>
+<label for="address"> address:</label>
+<textarea name="" row="5" cols="30" id="address"  placeholder="enter full address"></textarea>
+<br> <br>
+<label for="skills">skills:</label>
+<input type="checkbox" id="skills" value="HTML">HTML
+<input type="checkbox" id="skills" value="CSS">CSS
+<input type="checkbox" id="skills" value="JS">JS
+<input type="checkbox" id="skills" value="JAVASCRIPT">JAVASCRIPT <br> <br>
+<label for="languages">Languages:</label>
+<input type="range">english
+ <input type="range">hindi  
+ <input type="range">telugu
+ <br> <br>
+ <label for="resume">resume: </label>
+ <input type="file" id="resume" accept=".pdf"><br> <br>
+
+
+<br> <br>
+
+<button type="submit"> submit</button>
+<button type="cancel"> cancel</button>
+       </fieldset>  
+    </form>
+</body>
+</html>

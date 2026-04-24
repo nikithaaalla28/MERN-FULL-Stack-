@@ -1,0 +1,45 @@
+CSS:
+------
+->css stand for cscading style sheets used to apply stylings, layouts , animation to web pages
+->css is introduced in the year 1994 by the developer "hakon wium lie"
+->the present version of css is CSS3 
+
+Methods to apply stylings to web page:
+---------------------------------------
+  1.inline CSS/ INLINE stylings
+   -> applying styles by taking 'style atribute' within the elements.
+   ->this style are applicable for only that elements
+   -> for inline css not required CSS selectors
+   ->inline styling is more priority then the internal & external
+  2.internal CSS/internal stylings
+   ->applying stylings by taking <style></style> tg in head part is called as a internal CSS/ internal stylings
+   ->to apply internal CSS we need CSS selectors 
+  3.external styling CSS/ extenal styling 
+   ->apply styling by taking new.css file and link to html file by using <link></link>
+   ->
+
+CSS selectors:
+-----------------
+ -> css selectors are used to target HTML elements tp apply styling 
+ -> css selectors are present only in internal and external css 
+ ->to apply external CSS we need css selectors
+
+ types of CSS selectors:
+ -----------------------
+  1.simple selectors
+  2.combinator selectors 
+  3.pseudo class selectors
+  4.pseudo elements selectors
+  5.attribute selectors
+
+  simple selector:
+    1.ID selector (#)
+    2.class selector (.)
+    3.tag selector 
+    4.grouping selector (,)
+    5universal selector( *)
+
+  css box model
+  css text models
+  
+
