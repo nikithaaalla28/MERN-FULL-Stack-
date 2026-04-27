@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        /**color values**/
+        li:first-child{
+           color:blue;
+           background-color:blanchedalmond;
+        }
+        /**by default background color is black if rgb parameters range are (0,0,0)
+        by default background color is white while rgb parameter range is (255,255,255)**/
+        li:nth-child(2){
+            color:rgb(0,0,255);
+            background-color: rgb(100,200,100) ;
+        }
+        li:nth-child(3){
+            border:10px solid rgba(0,0,255,0.3);
+            background-color:rgba(150,0,150,0.3);
+        }
+        li:nth-child(4){
+            background-color: hsl(360, 50%, 90%)
+        }
+        li:nth-child(5){
+            background-color: hsla(180, 50%, 70%, 0.5);
+            color:hsla(90, 50%, 60%, 0.8)
+        }
+        li:nth-child(6){
+            background-color: #ff01e6;
+        }
+        /**h1{
+            color: transparent;
+        }**/
+
+    </style>
+</head>
+<body>
+    <h1>color values</h1>
+    <ol>
+        <li>
+            <h4>headings</h4>
+        </li>
+        <li>
+            <h4>headings</h4>
+        </li>
+        <li>
+            <h4>headings</h4>
+        </li>
+        <li>
+            <h4>headings</h4>
+        </li>
+        <li>
+            <h4>headings</h4>
+        </li>
+        <li>
+            <h4>headings</h4>
+        </li>
+    </ol>
+</body>
+</html>

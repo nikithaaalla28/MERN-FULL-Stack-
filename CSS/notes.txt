@@ -58,8 +58,127 @@ CSS selectors:
     3. :focus       --- ->input tag
     4. :hover
 
-  
+  4.psuedo element selector:(can apply either internal or external styling)
+   1 ::after
+   2 ::before
+   3 ::first-letter
+   4 ::first-line
+   5 ::maker  (only applicable for lists)
+   6 ::slection (applying stylings during selections)(only color and background-color are applicable)
+   7 ::placeholder  
+ 
+   Attribute selectors:
+   ---------------------
+     ->attribute selctors are used to target HTML element based on attributes.
+     ex: <h1 align="center"  id="heading"> HELLO </h1>
+     <h1  id="heading"> HELLO </h1>
+
+        syntax -> selector[attributename="value"]{......styling.....}
+     
+      types:
+        1.[attributename="value"]
+        2.[attributename^="value"] (targets first letter/value)
+        3.[attributename$="value"] (targets last value)
+        4.[attributename|="value"] (used to target the starting point which are in between the hyphen - ex:heading-tag style is applicable for heading and heading tag)
+        5.[attributename*="value"]
+ 
+ color values:
+ --------------
+   1.color name
+   2.rgb(red(0-255),green(0-255),blue(0-255))
+   3.rgba(red, green, blue,alpha)(alpha should be in the range 0-1)
+   4.hsl(hue(0-360),saturation(1-100%),lighteness(1-100%))
+   5.hsla(hue,saturation,lightness,alpha)
+   6.hexa code()
+   7.transparent
+   8.color()
+
+ text properties:
+------------------
+   ->text properties are used to apply stylings for 'text'
+  properties:
+  ------------
+  1.text-alignments
+     i.text-align: left, right, center, start, end, justify.
+     ii.word-spacing
+     iii.letter-spacing
+     iv.text-indent
+     v.line-height
+  2.text decoration properties
+    i.text-decoration-line: none,underline, overline, line-through
+    ii.text-decoration-color
+    iii.text-decoration-style: solid, double, dotted, dashed, wavy, none.
+    iv.text-decoration-thickness
+    v.text-decoration (short hand form)
+  3.text transform properties:
+    i. text-transform : lower case , uppercase , capitalized
+
+  4.text-overflow properties:
+   i.overflow       :visible , auto , hidden , scroll
+   ii.overflow-x
+   iii.overflow-y
+  5.font properties
+   i.font-size
+   ii.font-style
+   iii.font-weight
+   iv.font-family
+
+css BOX model:
+--------------
+  1.padding
+    ->the space between content and border 
+     padding properties:
+       1.padding-top
+       2.padding-bottom
+       3.padding-left
+       4.padding-right
+       5.padding(short hand form)
+
+
+  2.border
+    ->the space between margin and padding
+       border properties
+       ---------------
+         1.border-style : none,solid,
+         2.border-weight
+         3.border-color
+         4.border(short and form)
+
+         border radius properties:
+         -------
+         1.border-top-left-radius
+         2.border-top-right-radius
+         3.border-bottom-left-radius
+         4.border-bottom-right-radius
+         5.border-radius-shf
+  3.margin
+      1.margin-top
+      2.margin-bottom
+      3.margin-left
+      4.margin-right
+      5.margin(short hand form)
+
+    
+    flex properties:
+    grid properties:
+    position properties:
+    animations
+    media queries
+
+
+
+
+
+
+
+
+
+
+
+
+
 git init  
 git add .
 git commit -m "name"
-
+git branch -M  main
+push origin main
