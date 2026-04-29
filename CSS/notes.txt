@@ -12,7 +12,7 @@ Methods to apply stylings to web page:
    -> for inline css not required CSS selectors
    ->inline styling is more priority then the internal & external
   2.internal CSS/internal stylings
-   ->applying stylings by taking <style></style> tg in head part is called as a internal CSS/ internal stylings
+   ->applying stylings by taking <style></style> tag in head part is called as a internal CSS/ internal stylings
    ->to apply internal CSS we need CSS selectors 
   3.external styling CSS/ extenal styling 
    ->apply styling by taking new.css file and link to html file by using <link></link>
@@ -158,16 +158,50 @@ css BOX model:
       4.margin-right
       5.margin(short hand form)
 
-    
-    flex properties:
+flex properties:
+    1. display :flex;
+    2.flex-direction (row-reverse, coloumn,)
+    3.flex-wrap
+    4. justify-content  (right, left, center, space-between, space-around,)
+    5.align-items (by default it shows baseline means top) (baseline, center, end)
+    6. flex-grow
+    7. flex-shrink
+    8. flex
+
+
     grid properties:
+      -> used to display content in a table form
+     1.display :grid
+     2.grid-template-columns
+     3.grid-template-rows
+     4.row-gap
+     4.column-gap
+     5.grid-row-start
+     6.grid-row-end
+     7.grid-column-start
+     8.grid-row-end
+
+
+
     position properties:
-    animations
-    media queries
+        1.position: fixed, relative, absolute, static, sticky, left, right
+    animations:
+       1.define animation using @keyframes
+       2.link that animation to html element
+       3.we can use "from" "to" or 0% to 100% in between the @keyframe styling.
+
+  media queries:
+      -> these are used to build responsive web pages based on device width(device view port)
+      -> brreak points
+        1.smaller devices (mobiles with brands)   0px-450px
+        2.medium devices (tablets / iPads)        450px-850px
+        3.large devices (laptops)                 850px-1200px
+        4.X large devices (digital screenbs)      >1200px
+
+    ->@media screen  (min-width, max-width)
 
 
-
-
+ 
 
 
 
