@@ -57,11 +57,29 @@
             <td>474747</td>
         </tr>
       </tbody>
+      </table>
+      <p>Lorem ipsum,  dolor sit amet consectetur adipisicing elit. Delectus nemo quis ut, nulla dolore suscipit ad doloribus unde, quia neque natus deleniti laboriosam assumenda blanditiis nostrum aliquam alias repudiandae molestiae.</p>
+      <button onclick="disappearParagraph()">Click here</button>
       <script>
+        function disappearParagraph(){
+            let para = document.querySelector("p");
+            para.style.display = (para.style.display =="block") ? "none" : "block"
+        }
         let rows=document.querySelectorAll("tbody tr")
-
-        document.querySelector("input")
-        console.log(rows);
+         rows[0].style.backgroundColor
+        let input=document.querySelector("input");
+        input.addEventListener('keyup',()=>{
+            let inputText=input.value.toLowerCase()
+             rows.forEach((rows)=>{
+            let rowData=rows.textContent;
+            let result=rowData.toLowerCase().includes(inputText);
+            rows.style.display =result ? "" : "none"
+        })
+            
+        })
+       input.onkeyup=()=>{
+        
+       }
       </script>
     
 </body>

@@ -209,4 +209,70 @@ DOM(DOCUMENT OBJECT MODEL):
   3.add event listeners
 
 
-      create registration form 
+ Loops:
+ ---------------
+  -> loops are used to iterate the statement untill the condition is satisfied.
+   1. for loop
+      -> syntax:
+                for(initiallization; condition; increment/decrement){
+
+                }
+   2.while loop
+      ->syntax:
+              while(condition){
+                increment/decrement
+              }
+   3.do while loop
+         
+           do{
+            increment/decrement;
+           }while(condition);
+   4.for-in loop
+          -> for-in loop is used to iterate strings , arrays
+          ->for-in loop is used to fetch only  index's
+          syntax:
+                for(variable in string/array){
+
+                }
+   5.for-of loop
+          ->for-of loop is used to iterate strings , arrays
+          ->for-of loop is used to fetch only  value
+          syntax:
+            for(variable of string/array){
+
+            }
+   6.forEach loop
+          -> forEach() is a higher order function used to iterate the arrays
+          -> can pass three different parameters
+          -> it does not generate new array
+          syntax:
+            Array.forEach((value,index,array)=>{
+              
+            })
+
+Array inbuilt methods:
+-----------------------
+ 1.map() : 
+     -> it generates new array
+ 2.filter()
+ 3.reduce()
+
+spread:
+-------
+
+
+assignment:
+    ->input student details with 
+    -> AFTER HEADING SECOND ROW SHOULD BE GREEN(85-100%)
+    YELLOW(65-84%)
+          (55-64)
+        RED  (<54)
+    
+EDIT YEELOW
+DELETE GREEN
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let productPrice=[450,2340,765,855,4950,5400];
+        console.log(productPrice);
+        let mappedPrices=productPrice.map((price)=>{
+            return price-price/10;
+        });
+
+        //filter dicounted products 400 to 5000rs prices
+        let= filteredProducts=mappedPrices.filter((price)=>{
+            return price>=1000&&price<=5000
+        })
+        console.log(mappedPrices );
+        console.log(filteredProducts);
+
+        //total sum of mapped prices
+         let totalSum=mappedPrices.reduce((price,acc)=>{
+           return price+acc;
+         },250)
+         console.log(totalSum);
+    </script>
+</body>
+</html>
