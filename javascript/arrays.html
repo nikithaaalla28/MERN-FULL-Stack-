@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //literal way
+        let arr=[10,20,30,40,50,60]
+        let arr1=['java', 20,'null', 50]
+        console.table(arr);
+        console.log(arr1);
+
+        //new keyword
+
+      let arr2= new Array(10,20,30)
+      console.table(arr2);
+      console.log(arr2[2]);
+
+      //inbuilt methods /inbuilt functions
+      let sampleArr=[102,3,2]
+      sampleArr.push(20,50)
+       console.table(sampleArr);
+      sampleArr.pop()
+      console.log(sampleArr);
+      sampleArr.unshift(40,50)
+      console.log(sampleArr)
+      sampleArr.shift() //used to remove first unshifted element
+      console.log(sampleArr)
+      sampleArr.splice(1,0,"javascript") 
+      console.log(sampleArr)
+      console.log(sampleArr.slice(0,4)) //only to fetch from index to index
+      console.log(sampleArr)
+      console.log(sampleArr.reverse())
+       console.log(sampleArr.toString())  
+       //" javascript is a scripting language"
+       //"language scripting is javascript"
+       //output2: "egaugnal gnitpircs si tp"
+
+       let str="javascript is a scripting language"
+
+       console.log(str.split("").reverse().toString().replaceAll(",",""));
+       console.log(str.split(" ").reverse().toString().replaceAll(","," "))
+      
+       
+    </script>
+</body>
+</html>

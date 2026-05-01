@@ -1,0 +1,212 @@
+JAVASCRIPT:
+--------------
+-> java script is the scripting language as well as programming languages
+
+why we need JS :
+---------------
+  -> to build dynamic web applications 
+  -> to add functuanalities to the web appplications
+  ->to manipilate HTML nd CSS
+  -> to achieve DOM(document object model) functionalities
+  -> to fetch data from server (API) and also to send data to server JS is required.
+
+
+  diff between JAVA and JAVASCRIPT 
+  ---------------------------------
+    java                                                          JAVASCRIPT
+    ----------                                              -------------------------
+      ->java is a abject orientred programming language.                   ->JS is a scripting language as well as object based programming language
+      ->java bo                                                            -> JS ONLY INTERPRITER
+      -> java will supports multithreading                                 -> JS script will support single call stack
+      ->java is a imperative in nature                                     ->JS is dynamically typed programming language(in JS no need to define data types to the variable so it is called dynamically typed )
+      ->java is a strictly typed                                           -> JS weekly typed
+      
+
+* the first name of JS is mocha (introduced in 1995 by brendan eich)
+* tokens:
+   -> tokens are the smallest units of code in a programming language
+       
+       classifications:
+         1.identifiers:
+            -> identifiers are the names given to the js code
+            ex: variables name(should be written in small letters), class names(pas), function names
+            -> we cannot use the keywords in the place of identifiers.
+         2.literals:
+           -> literals are the values given to the js code.
+            types:
+             1.string literals
+             2.numeric literals
+         3.keywords 
+            -> keywords are the predefined words which having its own meanin
+            -> in JS total 66 keywords aare there
+             eex: int char function float boolean  class const, var, let, if, else, for, while, do, continue, switch, break, default, double, return, export, exports, finally, try, catch, super, this, throw, package, public, void, null, import, get,  abstract, assert, byte, constant, enum, extends, delete, implements
+         4.operators:
+           -> operators are used to perform operations on operands
+            ex: 10+20
+             types :
+              1.assignment operators (=,+=, -=, *=, /=, %=)
+              2.logical operators (&& , || , !)
+              3.arithmetic operators (+ , - ,* , / , % , **)
+              4.rellational operators (>, >=, < , >=)
+              5.bitwise operators (& , | , ^)
+              6.unary operators (++ , --)
+              7.ternary operators (condition ? expression1 :expression2)
+              8.shift operators (>> , <<)
+              9.comparition
+         5.separaters:
+           -> used to separate the given code
+            ex: {}, [], (), :, ;, "", '', , . < >
+         6.comments
+           -> comments are used to comment the given code
+           types:
+             1.single line comments //
+             2.multiline comments /*   */
+
+    
+    Datatypes in JS :
+       -> datatypes represent the what type of data we storing on variables
+      types:
+        1.primitive data types (immutable)
+           1.number
+           2.string
+           3.boolean
+           4.null
+           5.undefined
+           6.symbol
+           7.bigInt
+
+        2.non-primitive datatypes  (mutable, object de-refernce)
+          1.arrays
+          2.object
+          3.functions 
+          4.class types
+
+    variables:
+    ---------------
+       ->variables names memory location used to  store data or values and it can change N number of times during  execution.
+        str="javascript"
+        str=10
+
+      1.variable dclaration
+      2.variable instiallization
+      3.variable utillization
+      4.variable Re-Instiallization
+      5.variable Re-Declaration
+
+
+ in JS can define variables in 3 ways:
+ ----------------------------------------
+ 1. let 
+      -> let variable acts like a local scop/ block scop
+      -> variable declaration and initiallization in same/ different line possible
+      -> in let reinitiallizion is possible where as re-declaration is not possible.
+      -> we cant hoist the let variables 
+ 2. var
+        ->let variables acts like a global scope/block scope(because var is present in window object)
+        ->variable declaration and initialization in same/ different line is possible 
+        ->re-initialization and re-declaration both are possible 
+        ->we can hoist the var variables
+
+    3. const
+        ->let variables acts like a final(because once initialization values we can't modify data/values)
+        ->variable declaration and initialization in same/ different line is possible  but in different lines is not possible 
+        ->re-initialization and re-declaration both are not possible 
+        ->we can't hoist the const variables
+
+
+ hoisting:
+      -------------
+        -> utillizing the variables before declaration
+        -> hoisting is possible only through 'var' variable
+      strings:
+      -----------
+       ""
+       ''
+       ``  ->template string & string interpolation
+         
+         string inbuilt functions:
+         --------------------
+
+
+    Arrays:
+    ------------
+      -> arrays are the linear data structure used to store homogenous and hetrogenous types of data.
+      -> arrays are not fixed in size in js they are dynamic.
+      
+      Ways to declare an array:
+      -------------------------
+        1.literal ways
+        2.using new keyword (Array Object)
+
+      ->slice does not effect the original data 
+    ->splice effect the original data
+
+
+Functions/methods:
+--------------------------
+ 
+   ->block of statement that is executed or inwoke when we call it
+    -> using functions we can increase code readability and code reusability
+
+
+    basically we have 2 types of functions
+            1. user deined functions 
+                    ->any functions that are declared by user or programmer as per their requirement
+
+            2. predefined functions
+                    ->inbuilt functions 
+
+
+
+
+JS functions types:
+---------------------
+  1.anonyms function:
+   ->the function which does not have function name known as anonymous function
+  2.named function/normal function
+  3.function expression
+  4.immediate invoking function/self calling function
+  5.arrow function (introduced by ES 6)
+  6.nested function
+  7.higher order function
+    ->any functions that will be accept another function as a parameter
+  8.callback function
+    -> any functions passing as value to the higher order function
+  9.generator function
+
+
+  Objects:
+  -----------
+   -> objects are real time entities which is used to show data in the form of key and value pair
+     1.literal way
+     2.using new keyword (create for object class)
+    Object inbuilt functions
+     1.Object.sealed
+     2.Object.freeze
+
+  *after using return then  next statements are not executed
+
+
+BOM(BROWSER OBJECT MODEL):
+--------------------------
+  ->predefineed inbuilt object present in every browsers
+  -> in contains windows object'
+  1.
+
+DOM(DOCUMENT OBJECT MODEL):
+----------------------------
+  ->DOM are used to manipulate HTML and CSS.
+  -> to build dynamic function.
+
+
+
+  we can apply events in three different ways:
+---------------------------------------------
+  1.attribute way()
+    ->onclick=""
+    ->onsubmit=""
+  2.property way
+  3.add event listeners
+
+
+      create registration form 
