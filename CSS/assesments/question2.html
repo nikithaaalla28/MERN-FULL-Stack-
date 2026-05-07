@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+    input {
+      padding: 8px;
+      width: 250px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form id="registrationForm">
+  <div class="form-group">
+    <label>Name:</label>
+    <input type="text" id="name">
+    <div class="error" id="nameError"></div>
+  </div>
+
+  <div class="form-group">
+    <label>Email:</label>
+    <input type="text" id="email">
+    <div class="error" id="emailError"></div>
+  </div>
+
+  <div class="form-group">
+    <label>Password:</label>
+    <input type="password" id="password">
+    <div class="error" id="passwordError"></div>
+  </div>
+
+  <div class="form-group">
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPassword">
+    <div class="error" id="confirmPasswordError"></div>
+  </div>
+
+  <button type="submit">Register</button>
+</form>
+
+<script>
+document.getElementById("registrationForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  // Get values
+  let name = document.getElementById("name").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let password = document.getElementById("password").value;
+  let confirmPassword = document.getElementById("confirmPassword").value;
+
+  // Error elements
+  let nameError = document.getElementById("nameError");
+  let emailError = document.getElementById("emailError");
+  let passwordError = document.getElementById("passwordError");
+  let confirmPasswordError = document.getElementById("confirmPasswordError");
+
+  // Clear previous errors
+  nameError.textContent = "";
+  emailError.textContent = "";
+  passwordError.textContent = "";
+  confirmPasswordError.textContent = "";
+
+  let isValid = true;
+
+  // Empty field check
+  if (name === "") {
+    nameError.textContent = "Name is required";
+    isValid = false;
+  }
+
+  if (email === "") {
+    emailError.textContent = "Email is required";
+    isValid = false;
+  }
+
+  if (password === "") {
+    passwordError.textContent = "Password is required";
+    isValid = false;
+  }
+
+  if (confirmPassword === "") {
+    confirmPasswordError.textContent = "Please confirm your password";
+    isValid = false;
+  }
+
+  // Email format validation
+  if (email !== "" && (!email.includes("@") || !email.includes("."))) {
+    emailError.textContent = "Enter a valid email (must contain @ and .)";
+    isValid = false;
+  }
+
+  // Password match
+  if (password !== "" && confirmPassword !== "" && password !== confirmPassword) {
+    confirmPasswordError.textContent = "Passwords do not match";
+    isValid = false;
+  }
+
+  // If all valid
+  if (isValid) {
+    alert("Registration successful!");
+  }
+});
+</script>
+
+</body>
+</html>
