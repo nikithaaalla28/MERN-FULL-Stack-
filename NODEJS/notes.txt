@@ -1,0 +1,34 @@
+Node JS :
+---------
+-> node js is the
+
+
+
+
+user defined modules:
+----------------------
+-> modules are known as functions in js 
+-> user defined modules is known as any function defined by user 
+-> export modules from one file to another file
+syntax: module.export = moduleName
+        module.exports = {moduleName1 , moduleName2...}
+-> import exported module 
+ syntax: const {moduleName1 , moduleName2...}=require("fileName)
+
+node core inbuilt modules(core modules):
+----------------------------
+ ->core modules is the inbuilt modules no need required install externally 
+ ->core modules are:
+    1.fs (file module):
+       ->fs module allows reading,writting,update and deleting the files
+       fs module inbuilt modules
+         ->1.fs.readFile()
+           2.fs.writeFile()
+           3.fs.appendFile()
+           4.fs.unlink()    used to delete file
+         
+    2.path
+    3.OS 
+    4.http
+
+ 
